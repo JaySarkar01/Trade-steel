@@ -2,9 +2,8 @@
 
 import React, { useRef } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import { FaChevronLeft, FaChevronRight, FaStar } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -12,67 +11,67 @@ import "swiper/css/pagination";
 const banner1 = [
   {
     img: "/product/01.jpg",
-    name: "Classic Burger",
+    name: "",
     rating: 4.5,
     price: 199,
   },
   {
     img: "/product/02.jpg",
-    name: "Adwance Makeup",
+    name: "",
     rating: 4.8,
     price: 349,
   },
   {
     img: "/product/03.jpg",
-    name: "Basic Makeup",
+    name: "",
     rating: 4.7,
     price: 299,
   },
   {
     img: "/product/04.jpg",
-    name: "Hair Cut",
+    name: "",
     rating: 4.6,
     price: 399,
   },
   {
     img: "/product/05.jpg",
-    name: "Premium Makeup",
+    name: "",
     rating: 4.3,
     price: 149,
   },
   {
     img: "/product/06.jpg",
-    name: "Hair Style",
+    name: "",
     rating: 4.9,
     price: 129,
   },
   {
     img: "/product/07.jpg",
-    name: "Massage",
+    name: "",
     rating: 4.5,
     price: 159,
   },
   {
     img: "/product/08.jpg",
-    name: "Hair Cut",
+    name: "",
     rating: 4.8,
     price: 499,
   },
   {
     img: "/product/09.jpg",
-    name: "Hair Cut",
+    name: "",
     rating: 4.8,
     price: 499,
   },
   {
     img: "/product/10.jpg",
-    name: "Hair Cut",
+    name: "",
     rating: 4.8,
     price: 499,
   },
   {
     img: "/product/01.jpg",
-    name: "Makeup & hairstyling",
+    name: "",
     rating: 4.4,
     price: 179,
   },
@@ -85,43 +84,43 @@ const haircare = [
   },
   {
     img: "/product/01.jpg",
-    name: "Basic makeup package",
+    name: "",
     rating: 4.8,
     price: 349,
   },
   {
     img: "/product/01.jpg",
-    name: "Makeup & hairstyling",
+    name: "",
     rating: 4.7,
     price: 299,
   },
   {
     img: "/product/01.jpg",
-    name: "Straight & smooth blow-dry",
+    name: "",
     rating: 4.6,
     price: 399,
   },
   {
     img: "/product/01.jpg",
-    name: "L'Oreal Inoa root touch-up",
+    name: "",
     rating: 4.3,
     price: 149,
   },
   {
     img: "/product/01.jpg",
-    name: "Basic makeup",
+    name: "",
     rating: 4.9,
     price: 129,
   },
   {
     img: "/product/01.jpg",
-    name: "L'Oreal hair spa",
+    name: "",
     rating: 4.5,
     price: 159,
   },
   {
     img: "/product/01.jpg",
-    name: "Makeup only",
+    name: "",
     rating: 4.8,
     price: 499,
   },
@@ -129,8 +128,7 @@ const haircare = [
 
 export default function ServiceCarousel(){
   const swiperRef = useRef(null);
-  const swiperRef1 = useRef(null);
-  return (
+    return (
     <>
       
 
