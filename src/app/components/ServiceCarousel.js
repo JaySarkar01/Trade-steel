@@ -86,7 +86,7 @@ const haircare = [
     img: "/product/01.jpg",
     name: "",
     rating: 4.8,
-    price: 349,
+    price: 339,
   },
   {
     img: "/product/01.jpg",
